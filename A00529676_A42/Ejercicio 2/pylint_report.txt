@@ -1,0 +1,29 @@
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 2 % pylint convertNumbers.py 
+************* Module convertNumbers
+convertNumbers.py:49:56: C0303: Trailing whitespace (trailing-whitespace)
+convertNumbers.py:51:0: C0301: Line too long (128/100) (line-too-long)
+convertNumbers.py:88:0: C0305: Trailing newlines (trailing-newlines)
+convertNumbers.py:6:0: W0611: Unused numpy imported as np (unused-import)
+
+-----------------------------------
+Your code has been rated at 9.31/10
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 2 % pylint convertNumbers.py
+************* Module convertNumbers
+convertNumbers.py:51:0: C0301: Line too long (158/100) (line-too-long)
+convertNumbers.py:6:0: W0611: Unused numpy imported as np (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.66/10 (previous run: 9.31/10, +0.34)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 2 % pylint convertNumbers.py
+************* Module convertNumbers
+convertNumbers.py:6:0: W0611: Unused numpy imported as np (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.83/10 (previous run: 9.66/10, +0.17)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 2 % pylint convertNumbers.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.83/10, +0.17)
