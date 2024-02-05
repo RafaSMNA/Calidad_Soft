@@ -1,0 +1,6 @@
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 3 % pylint wordCount.py           
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 3 % 
