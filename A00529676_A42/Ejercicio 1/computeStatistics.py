@@ -22,7 +22,7 @@ numeric_array = np.array([])
 
 try:
     # Abrir archivo en modo lectura
-    with open("P1/" + file_name, 'r', encoding="utf-8") as file:
+    with open(file_name, 'r', encoding="utf-8") as file:
         # Lee el contenido por renglon
         lines = file.readlines()
         # lee linea por linea, si existe un error al convertir a numerico, lo ignora y continua
