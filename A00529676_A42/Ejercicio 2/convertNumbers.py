@@ -12,7 +12,7 @@ FILE_RESULT = 'ConvertionResults.txt'
 
 # Verifica la cantidad de argumentos
 if len(sys.argv) != 2:
-    print("Usar: python computeStatistics.py <nombre de archivo>")
+    print("Usar: python convertNumbers.py <nombre de archivo>")
     sys.exit(1)
 
 # Lee el nombre de archivo de la linea de comandos
