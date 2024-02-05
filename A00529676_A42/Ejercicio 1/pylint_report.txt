@@ -1,0 +1,191 @@
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py        
+************* Module computeStatistics
+computeStatistics.py:51:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:89:0: C0304: Final newline missing (missing-final-newline)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:9:0: C0103: Constant name "file_result" doesn't conform to UPPER_CASE naming style (invalid-name)
+computeStatistics.py:37:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:22:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:59:4: W0621: Redefining name 'mode_values' from outer scope (line 62) (redefined-outer-name)
+computeStatistics.py:77:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:87:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:3:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 7.86/10 (previous run: 7.68/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:51:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:9:0: C0103: Constant name "file_result" doesn't conform to UPPER_CASE naming style (invalid-name)
+computeStatistics.py:37:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:22:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:59:4: W0621: Redefining name 'mode_values' from outer scope (line 62) (redefined-outer-name)
+computeStatistics.py:77:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:87:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:3:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.04/10 (previous run: 7.86/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:10:0: C0103: Constant name "file_result" doesn't conform to UPPER_CASE naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:23:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:60:4: W0621: Redefining name 'mode_values' from outer scope (line 63) (redefined-outer-name)
+computeStatistics.py:78:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:88:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.21/10 (previous run: 8.04/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % 
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:23:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:60:4: W0621: Redefining name 'mode_values' from outer scope (line 63) (redefined-outer-name)
+computeStatistics.py:78:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:78:10: E0602: Undefined variable 'file_result' (undefined-variable)
+computeStatistics.py:88:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:88:10: E0602: Undefined variable 'file_result' (undefined-variable)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 6.61/10 (previous run: 8.21/10, -1.61)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:23:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:60:4: W0621: Redefining name 'mode_values' from outer scope (line 63) (redefined-outer-name)
+computeStatistics.py:78:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:88:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.39/10 (previous run: 6.61/10, +1.79)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:60:4: W0621: Redefining name 'mode_values' from outer scope (line 63) (redefined-outer-name)
+computeStatistics.py:78:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:88:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.57/10 (previous run: 8.39/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:56:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeStatistics.py:61:4: W0621: Redefining name 'mode_values' from outer scope (line 64) (redefined-outer-name)
+computeStatistics.py:79:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:89:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.60/10 (previous run: 8.57/10, +0.03)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:61:4: W0621: Redefining name 'mode_values' from outer scope (line 64) (redefined-outer-name)
+computeStatistics.py:79:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:89:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.75/10 (previous run: 8.60/10, +0.15)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:79:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:89:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 8.93/10 (previous run: 8.75/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:52:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:38:7: W0718: Catching too general exception Exception (broad-exception-caught)
+computeStatistics.py:4:0: C0411: standard import "import time" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.29/10 (previous run: 8.93/10, +0.36)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:53:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+computeStatistics.py:39:7: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 9.46/10 (previous run: 9.29/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:53:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.46/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:53:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:53:0: C0301: Line too long (110/100) (line-too-long)
+computeStatistics.py:1:0: C0103: Module name "computeStatistics" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+************* Module computeStatistics
+computeStatistics.py:54:0: C0301: Line too long (110/100) (line-too-long)
+
+------------------------------------------------------------------
+Your code has been rated at 9.82/10 (previous run: 9.64/10, +0.18)
+
+(base) rgarcia@Rafaels-MacBook-Air Ejercicio 1 % pylint computeStatistics.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.82/10, +0.18)
