@@ -1,0 +1,48 @@
+(base) rgarcia@Rafaels-MacBook-Air ComputeSales % pylint computeSales.py 
+************* Module computeSales
+computeSales.py:51:41: C0303: Trailing whitespace (trailing-whitespace)
+computeSales.py:54:65: C0303: Trailing whitespace (trailing-whitespace)
+computeSales.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:10:55: W0621: Redefining name 'file' from outer scope (line 62) (redefined-outer-name)
+computeSales.py:12:4: W0621: Redefining name 'e' from outer scope (line 53) (redefined-outer-name)
+computeSales.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:18:33: W0621: Redefining name 'file' from outer scope (line 62) (redefined-outer-name)
+computeSales.py:18:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeSales.py:53:15: W0718: Catching too general exception Exception (broad-exception-caught)
+computeSales.py:54:18: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+computeSales.py:63:44: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+computeSales.py:64:44: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+
+(base) rgarcia@Rafaels-MacBook-Air ComputeSales % pylint computeSales.py
+************* Module computeSales
+computeSales.py:64:0: C0301: Line too long (103/100) (line-too-long)
+computeSales.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:12:4: W0621: Redefining name 'e' from outer scope (line 53) (redefined-outer-name)
+computeSales.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+computeSales.py:18:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+computeSales.py:53:15: W0718: Catching too general exception Exception (broad-exception-caught)
+computeSales.py:63:44: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+computeSales.py:64:44: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+
+------------------------------------------------------------------
+Your code has been rated at 8.00/10 (previous run: 7.00/10, +1.00)
+
+(base) rgarcia@Rafaels-MacBook-Air ComputeSales % pylint computeSales.py
+************* Module computeSales
+computeSales.py:64:0: C0301: Line too long (103/100) (line-too-long)
+computeSales.py:12:4: W0621: Redefining name 'e' from outer scope (line 53) (redefined-outer-name)
+computeSales.py:63:44: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+computeSales.py:64:44: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+
+------------------------------------------------------------------
+Your code has been rated at 9.00/10 (previous run: 8.00/10, +1.00)
+
+(base) rgarcia@Rafaels-MacBook-Air ComputeSales % pylint computeSales.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.00/10, +1.00)
+
+(base) rgarcia@Rafaels-MacBook-Air ComputeSales % 
