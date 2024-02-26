@@ -1,0 +1,5 @@
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_customer.py 
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % 
+
+
+NO ERRORS

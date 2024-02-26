@@ -1,0 +1,35 @@
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_customer.py 
+************* Module cls_customer
+cls_customer.py:50:0: C0305: Trailing newlines (trailing-newlines)
+cls_customer.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cls_customer.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+cls_customer.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:10:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_customer.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:16:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_customer.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:27:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:36:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cls_customer.py:35:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+cls_customer.py:43:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 6.58/10
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_customer.py
+************* Module cls_customer
+cls_customer.py:23:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_customer.py:32:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_customer.py:61:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cls_customer.py:57:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 8.95/10 (previous run: 6.58/10, +2.37)
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_customer.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.95/10, +1.05)
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % 

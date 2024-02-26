@@ -1,0 +1,43 @@
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_customer.py 
+************* Module cls_customer
+cls_customer.py:50:0: C0305: Trailing newlines (trailing-newlines)
+cls_customer.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cls_customer.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+cls_customer.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:10:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_customer.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_customer.py:16:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_customer.py 
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_reservation.py 
+************* Module cls_reservation
+cls_reservation.py:20:0: C0301: Line too long (115/100) (line-too-long)
+cls_reservation.py:26:0: C0301: Line too long (137/100) (line-too-long)
+cls_reservation.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cls_reservation.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+cls_reservation.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_reservation.py:10:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_reservation.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_reservation.py:16:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_reservation.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_reservation.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 6.15/10
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_reservation.py
+************* Module cls_reservation
+cls_reservation.py:39:56: C0303: Trailing whitespace (trailing-whitespace)
+cls_reservation.py:49:102: C0303: Trailing whitespace (trailing-whitespace)
+cls_reservation.py:49:0: C0301: Line too long (102/100) (line-too-long)
+cls_reservation.py:23:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_reservation.py:32:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+
+------------------------------------------------------------------
+Your code has been rated at 8.08/10 (previous run: 6.15/10, +1.92)
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_reservation.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.08/10, +1.92)
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % 

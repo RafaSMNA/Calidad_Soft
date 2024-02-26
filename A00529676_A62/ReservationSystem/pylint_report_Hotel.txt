@@ -1,0 +1,51 @@
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_hotel.py 
+************* Module cls_hotel
+cls_hotel.py:14:21: C0303: Trailing whitespace (trailing-whitespace)
+cls_hotel.py:26:52: C0303: Trailing whitespace (trailing-whitespace)
+cls_hotel.py:61:0: C0301: Line too long (121/100) (line-too-long)
+cls_hotel.py:77:0: C0305: Trailing newlines (trailing-newlines)
+cls_hotel.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cls_hotel.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+cls_hotel.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:11:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_hotel.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:17:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_hotel.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:43:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:52:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cls_hotel.py:51:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+cls_hotel.py:66:4: C0116: Missing function or method docstring (missing-function-docstring)
+cls_hotel.py:2:0: W0611: Unused datetime imported from datetime (unused-import)
+
+-----------------------------------
+Your code has been rated at 6.61/10
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_hotel.py
+************* Module cls_hotel
+cls_hotel.py:23:21: C0303: Trailing whitespace (trailing-whitespace)
+cls_hotel.py:41:52: C0303: Trailing whitespace (trailing-whitespace)
+cls_hotel.py:88:0: C0301: Line too long (121/100) (line-too-long)
+cls_hotel.py:7:0: C0115: Missing class docstring (missing-class-docstring)
+cls_hotel.py:20:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_hotel.py:29:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cls_hotel.py:79:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cls_hotel.py:75:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+cls_hotel.py:5:0: W0611: Unused datetime imported from datetime (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.39/10 (previous run: 6.61/10, +1.79)
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_hotel.py
+************* Module cls_hotel
+cls_hotel.py:81:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 9.82/10 (previous run: 8.39/10, +1.43)
+
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % pylint cls_hotel.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.82/10, +0.18)

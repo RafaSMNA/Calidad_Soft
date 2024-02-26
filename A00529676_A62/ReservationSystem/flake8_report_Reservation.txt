@@ -1,0 +1,8 @@
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_reservation.py
+cls_reservation.py:40:66: E231 missing whitespace after ':'
+cls_reservation.py:40:80: E501 line too long (81 > 79 characters)
+cls_reservation.py:43:80: E501 line too long (94 > 79 characters)
+cls_reservation.py:55:80: E501 line too long (99 > 79 characters)
+cls_reservation.py:57:80: E501 line too long (99 > 79 characters)
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_reservation.py
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % 

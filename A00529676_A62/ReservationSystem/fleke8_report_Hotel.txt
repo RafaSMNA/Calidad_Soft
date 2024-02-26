@@ -1,0 +1,29 @@
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py 
+cls_hotel.py:6:1: E302 expected 2 blank lines, found 1
+cls_hotel.py:77:80: E501 line too long (85 > 79 characters)
+cls_hotel.py:104:80: E501 line too long (89 > 79 characters)
+cls_hotel.py:106:80: E501 line too long (90 > 79 characters)
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:78:54: W291 trailing whitespace
+cls_hotel.py:79:25: E127 continuation line over-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:5: E128 continuation line under-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:9: E128 continuation line under-indented for visual indent
+cls_hotel.py:79:9: E125 continuation line with same indent as next logical line
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:21: E128 continuation line under-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:25: E127 continuation line over-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:41: E127 continuation line over-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:41: E127 continuation line over-indented for visual indent
+cls_hotel.py:79:55: W291 trailing whitespace
+cls_hotel.py:80:41: E127 continuation line over-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+cls_hotel.py:79:29: E127 continuation line over-indented for visual indent
+cls_hotel.py:80:29: E127 continuation line over-indented for visual indent
+cls_hotel.py:81:29: E127 continuation line over-indented for visual indent
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % flake8 cls_hotel.py
+(base) rgarcia@Rafaels-MacBook-Air ReservationSystem % 
